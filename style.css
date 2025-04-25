@@ -1,0 +1,10 @@
+.father{
+    display: flexbox;
+    width: 300px;
+    height: 400px;
+    background-color: blueviolet;
+}
+
+.father .ch{
+    background-color: yellowgreen;
+}
