@@ -34,9 +34,11 @@ body{
 
 .grid-c{
     display: grid;
-    grid-template-columns: auto auto auto;
     background-color: chocolate;
     padding: 20px;
+    grid-template-rows: 2;
+    grid-template-columns: 5;
+    
 }
 .grid-c > div {
     background-color: aliceblue;
@@ -57,8 +59,4 @@ body{
     grid-row: 1 / 2;
     grid-column: 3 / span2;
 }
-.grid-c{
-    
-}
-
 
