@@ -1,9 +1,9 @@
 .father{
     display: flex;
     background-color: blueviolet;
-    flex-direction: column-reverse;
-    flex-wrap: wrap;
+    flex-direction: row;
     height: 300px;
+    align-items: center;
 }
 
 .father > div {
