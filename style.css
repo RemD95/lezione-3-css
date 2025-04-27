@@ -1,9 +1,8 @@
 .father{
     display: flex;
     background-color: blueviolet;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 300px;
+    flex-direction: column-reverse;
+    
     
 }
 
