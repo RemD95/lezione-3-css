@@ -3,7 +3,7 @@
     background-color: blueviolet;
     flex-direction: row;
     height: 300px;
-    align-items: center;
+    justify-content: center;
 }
 
 .father > div {
