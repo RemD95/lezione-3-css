@@ -1,7 +1,10 @@
 .father{
     display: flex;
     background-color: blueviolet;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 300px;
+    
 }
 
 .father > div {
