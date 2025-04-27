@@ -46,4 +46,13 @@ body{
     border: 1px solid black;
 }
 
+.i8 {
+    grid-area: myArea;
+    grid-column:3/ span2;
+    grid-row: 3 / 4;
+}
+.grid-c{
+    
+}
+
 
