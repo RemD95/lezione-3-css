@@ -1,10 +1,28 @@
 .father{
-    display: flexbox;
-    width: 300px;
-    height: 400px;
+    display: flex;
     background-color: blueviolet;
+    flex-direction: column;
 }
 
-.father .ch{
+.father > div {
     background-color: yellowgreen;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    
 }
+.item1{
+   
+}
+.item2{
+    
+}
+
+.item3{
+    
+}
+ body{
+    padding-top: 20px;
+ }
