@@ -19,7 +19,7 @@
    flex-shrink: 1;
 }
 .item2{
-    
+   flex-basis: 150px; 
 }
 
 .item3{
