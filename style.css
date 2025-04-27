@@ -17,9 +17,11 @@
 }
 .item1{
    flex-shrink: 1;
+   align-self: center;
 }
 .item2{
-   flex-basis: 150px; 
+   flex-basis: 150px;
+   align-self: baseline; 
 }
 
 .item3{
@@ -27,4 +29,5 @@
 }
  body{
     padding-top: 20px;
- }
+}
+
