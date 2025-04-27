@@ -2,8 +2,8 @@
     display: flex;
     background-color: blueviolet;
     flex-direction: column-reverse;
-    
-    
+    flex-wrap: wrap;
+    height: 300px;
 }
 
 .father > div {
