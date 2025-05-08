@@ -51,8 +51,8 @@
     display: grid;
     background-color: chocolate;
     padding: 20px;
-    grid-template-columns: 5;
-    grid-template-rows: 2;
+    grid-template-columns:  repeat(5, 1fr);
+    grid-template-rows: 1fr 2fr;
 }
     
 
@@ -62,17 +62,10 @@
     line-height: 75px;
     font-size: 30px;
     border: 1px solid black;
-    align-items: center;    
+    align-items: center;
 }
 
-.i8{
-    grid-column: 2/ span 1;
-    grid-row:span 2 / 5;
-}
 
-.i1{
-    grid-row: 1/span 2;
-}
 
 
 .calc-container{
